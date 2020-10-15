@@ -1,0 +1,25 @@
+area_locf.pickle
+locf : 이전시간에 컬럼값으로 대체
+측정소별로 locf 적용시 보완되지 않는 측정소목록(nan값이 남아잇음)
+131120
+131194
+131198
+131414
+221163
+221191
+221271
+324148
+336133
+437132
+437151
+735116
+831493
+
+
+area_moving_window.pickle dict[0] => pd.DataFrame
+impyute window_moving(w_size=3) 측정소별로 적용
+
+simple imputer
+
+no2 nox비율 이상 이라 동일값지속 문제 발생
+
